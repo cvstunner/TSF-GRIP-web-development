@@ -1,0 +1,81 @@
+nav{
+	height: 80px;
+	background: linear-gradient(to right, rgba(85, 122, 165, 1.0), rgba(124, 116, 154, 1.0), #C06C84);
+}
+
+body{
+	height: calc(100vh - 80px);
+	width: 100vw;
+}
+
+main{
+	height: 100%;
+	width: 100%;
+	margin-top: 120px !important;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	position: relative;
+}
+
+table{
+/*	background: rgba(190, 108, 132, 0.55);*/
+	height: 100%;
+}
+
+tbody{
+	border-top-color: #C06C84 !important;
+	max-height: 100px !important;
+	min-height: 100px !important;
+}
+
+.card{
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.card-body{
+	width: 100% !important;
+	/*display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;*/
+}
+
+.card-header{
+	background: none;
+	border: none;
+}
+
+#transfer-modal-btn, #back-btn{
+	background: linear-gradient(to right, rgba(105, 122, 165, 1.0), rgba(124, 116, 154, 1.0)); 
+	border-color: rgba(105, 142, 185, 1.0);
+	box-shadow: none !important;
+}
+
+#transaction-btn{
+	background: linear-gradient(to left, rgba(124, 116, 154, 1.0), rgba(150, 108, 152, 1)); 
+	border-color: rgba(150, 108, 152, 1);
+	box-shadow: none !important;
+}
+
+#back-btn{
+	width: 45px;
+	height: 45px;
+	padding: 0;
+	top: 0px;
+	left: 55px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100% !important;
+	position: absolute;
+}
+
+#back-btn > p{
+	margin: 0;
+	padding-bottom: 0.2em;
+	fon
+}

@@ -1,0 +1,40 @@
+{
+  "name": "banking-system",
+  "version": "1.0.0",
+  "description": "Banking System is a nodejs express application, which is task 1 of TSF GRIP Intership in web development domain",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./js/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cvstunner/TSF-GRIP-web-development.git"
+  },
+  "keywords": [
+    "TSF",
+    "GRIP",
+    "Banking",
+    "System",
+    "node",
+    "nodejs",
+    "express",
+    "intern",
+    "intership"
+  ],
+  "author": "cvstunner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cvstunner/TSF-GRIP-web-development/issues"
+  },
+  "homepage": "https://github.com/cvstunner/TSF-GRIP-web-development#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-router": "^0.0.1",
+    "express-session": "^1.17.3",
+    "mysql": "^2.18.1"
+  }
+}
